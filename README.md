@@ -32,3 +32,19 @@ Using school characteristics as predictor for withdrawl rate:
 Another way to predict withdrawal rate is by using various characteristics for schools such as regions for their location, tuition rates, admissions rates and others. These characteristics can be used to evaluate what areas in school's control results in higher withdrawal rate.
 The way I did this was to take features that would impact withdrawal rate and then use that to see what feature that students should look out for the most in choosing schools (schools in certain locations maybe or schools with certain tuition etc).
 For this, I only used date from one year (2014).
+
+Limitations:
+This dataset is really large. It has over 1900+ features. It is impossible to get into everything and evaluate it properly in this project alone. It is also important to note that the dataset is only focused on U.S. colleges / universities so, it does not address any international schools.
+As there were so many features, it was difficult to do a PCA analysis and actually get helpful insights. Since I did have to manually select features I found to be interesting, this might not be reflective of actual dataset and there might be feature that is not included here.
+There are other factors that may be a cause for a student dropping out (pursuit of better opportunities, better job, military service, entrepeunership etc). It is important to have prespective and understand that withdraw might not always mean something negative.
+
+Applications:
+
+I find this project to be helpful for colleges / universities. The first modeling approaches shows universities areas that they can improve upon. They can use historical data to correctly predict future drop out rates. They can use these rates to provide services/ support to their students to aid in lowering future withdraw rates in general.
+For students, I find the last modeling approach to be the most helpful. They can see which regions have lower drop out rates (if I was a student, betting on a New England college would not be a bad bet). Similarly, students also need to factor in the tuition of the institution that they are attending. If these features are provided by the students, we can predict drop out rates for other institutions not included here as well.
+
+Conclusion & Other Areas of Exploration:
+
+Overall, this is a very interesting problem to look at. There are various factors that leads to a student dropping out from a university. Understanding of these factors by both stakeholders, college and students, will lead to better implementation of programs and services that can prevent students from dropping out.
+An area of exploration apperas to be online / distance education. Distance education has a much larger drop out rate compared to traditional education method. As online education has increased over the years, will that prove to be true? How can distance only institutions better equip themselves so, students do not drop out?
+I think this is a great opportunity for online education & can provide valuable insights into changing the education landscape in the future.
